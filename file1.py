@@ -1,0 +1,15 @@
+f=open("people2.txt","w")
+f.write("rishabh - meerut\n")
+f.write("imtiyaz - delhi\n")
+f.write("nilima - cochin\n")
+f.write("rati - shimla\n")
+f.write("ayishah - delhi\n")
+f.write("raghu - shimla\n")
+f.write("naseer - kanpur\n")
+f.write("balwinder - tokyo\n")
+f.close()
+
+f=open("people2.txt","r")
+print(f.read())
+f.close()
+
